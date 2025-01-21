@@ -46,11 +46,13 @@ display: flex;
 }
 
 .nav-list {
-    
 display: flex;
-    align-items: center;
     gap: 40px;
+    list-style: none;
+    margin: 0;
+        padding: 0;
 }
+
  .contacts-list {
 display: flex;
     align-items: center;
@@ -61,8 +63,8 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
-padding: 24px;
-margin-right: 76px;
+padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo {
@@ -134,7 +136,8 @@ gap: 40px;
 }
 
 .hero {
-    padding: 188px 0; 
+margin: 0 auto;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -145,13 +148,11 @@ font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    text-align: center;
-        margin: auto;
+        margin: 0 auto;
 }
 
 .hero-btn {
     display: block;
-    margin: 0 auto;
     min-width: 169px;
     height: 56px;
 font-weight: 500;
@@ -163,7 +164,8 @@ font-weight: 500;
         background-color: #4D5AE5;
         border: none;
         border-radius: 4px;
-            padding: 16px 32px;     
+            padding: 10px 20px;
+                margin: 48px auto;
 }
 
 .hero-btn:focus,
@@ -224,7 +226,6 @@ margin-bottom: 8px;
 
 .team-title {
     margin-bottom: 72px;
-padding-bottom: 32px;
 font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -342,7 +343,6 @@ color: #434455;
 
 .footer-text {
     max-width: 264px;
-   padding-top: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
